@@ -14,7 +14,7 @@ export default function Projects() {
       image: "/placeholder.svg?height=400&width=600",
       technologies: ["HTML", "CSS", "Bootstrap", "JavaScript", "Three.js"],
       liveLink: "https://virtual-herbs.netlify.app/",
-      codeLink: "#",
+      codeLink: "https://github.com/AllenhouseBusinessSchool/Quantum-coders",
     },
     {
       title: "HackXpert",
@@ -22,7 +22,7 @@ export default function Projects() {
       image: "/placeholder.svg?height=400&width=600",
       technologies: ["React", "Tailwind", "JSX"],
       liveLink: "https://v0-hack-xpert-dashboard-design.vercel.app/",
-      codeLink: "#",
+      codeLink: "https://github.com/AkshatG589",
     },
     {
       title: "Todos List App",
@@ -30,7 +30,7 @@ export default function Projects() {
       image: "/placeholder.svg?height=400&width=600",
       technologies: ["React", "Bootstrap", "JSX"],
       liveLink: "https://my-todo-coral.vercel.app/",
-      codeLink: "#",
+      codeLink: "https://github.com/AkshatG589",
     },
     {
       title: "Weather App",
@@ -38,7 +38,7 @@ export default function Projects() {
       image: "/placeholder.svg?height=400&width=600",
       technologies: ["JavaScript", "Weather API"],
       liveLink: "https://weather-app-six-chi-64.vercel.app/",
-      codeLink: "#",
+      codeLink: "https://github.com/AkshatG589/Weather-app",
     },
     {
       title: "Netflix Clone",
@@ -46,7 +46,7 @@ export default function Projects() {
       image: "/placeholder.svg?height=400&width=600",
       technologies: ["HTML", "CSS"],
       liveLink: "https://netflix-clone-iota-brown.vercel.app/",
-      codeLink: "#",
+      codeLink: "https://github.com/AkshatG589",
     }, 
     {
       title: "Portfolio website",
@@ -54,8 +54,32 @@ export default function Projects() {
       image: "/placeholder.svg? height=400&width=600",
       technologies:["React.js","Next.js","jsx"],
       liveLink: "/",
-      codeLink: "#",
+      codeLink: "https://github.com/AkshatG589",
     },
+    {
+      title: "Chat AI Platform",
+      description: "A full-stack AI chatbot platform allowing guest and registered users to interact with Gemini-powered assistants. Includes secure OTP-based authentication.",
+      image: "/placeholder.svg?height=400&width=600",
+      technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Gemini API"],
+      liveLink: "https://ak-chatai.vercel.app/",  // Replace with actual live URL if available
+      codeLink: "https://github.com/AkshatG589/ChatAI",  // Replace with GitHub repo link if sharing code
+      },
+      {
+        title: "iNotebook App",
+        description: "A full-stack notes management application that allows users to securely add, update, and delete personal notes. Features include user authentication with login and signup functionality to keep data private and organized.",
+        image: "/placeholder.svg?height=400&width=600",
+        technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT Auth"],
+        liveLink: "https://inotebook-five-bice.vercel.app/",  // Replace with actual live URL if updated
+        codeLink: "https://github.com/AkshatG589/inotebook",  // Replace with GitHub repo link if sharing code
+        },
+        {
+          title: "QuickBills App",
+          description: "A full-stack billing application to create GST-ready invoices, manage products, and track billing history. Includes Clerk authentication, dynamic invoice generation, business info setup, and detailed bill history.",
+          image: "/preview.png",
+          technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Clerk Auth", "Bootstrap"],
+          liveLink: "https://quickbills-ak.vercel.app/",
+          codeLink: "https://github.com/AkshatG589/quickbill"
+}
   ]
 
   return (
