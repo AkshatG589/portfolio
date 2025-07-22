@@ -9,6 +9,38 @@ import { Code, ExternalLink } from "lucide-react"
 export default function Projects() {
   const projects = [
     {
+      title: "QuickBills App",
+      description: "A full-stack billing application to create GST-ready invoices, manage products, and track billing history. Includes Clerk authentication, dynamic invoice generation, business info setup, and detailed bill history.",
+      image: "/placeholder.svg?height=400&width=600",
+      technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Clerk Auth", "Bootstrap"],
+      liveLink: "https://quickbills-ak.vercel.app/",
+      codeLink: "https://github.com/AkshatG589/quickbill"
+    },
+    {
+      title: "Chat AI Platform",
+      description: "A full-stack AI chatbot platform allowing guest and registered users to interact with Gemini-powered assistants. Includes secure OTP-based authentication.",
+      image: "/placeholder.svg?height=400&width=600",
+      technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Gemini API"],
+      liveLink: "https://ak-chatai.vercel.app/",  // Replace with actual live URL if available
+      codeLink: "https://github.com/AkshatG589/ChatAI",  // Replace with GitHub repo link if sharing code
+    },
+    {
+      title: "iNotebook App",
+      description: "A full-stack notes management application that allows users to securely add, update, and delete personal notes. Features include user authentication with login and signup functionality to keep data private and organized.",
+      image: "/placeholder.svg?height=400&width=600",
+      technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT Auth"],
+      liveLink: "https://inotebook-five-bice.vercel.app/",  // Replace with actual live URL if updated
+      codeLink: "https://github.com/AkshatG589/inotebook",  // Replace with GitHub repo link if sharing code
+    },
+    {
+      title: "Portfolio website",
+      description :"A simple portfolio website",
+      image: "/placeholder.svg? height=400&width=600",
+      technologies:["React.js","Next.js","jsx"],
+      liveLink: "/",
+      codeLink: "https://github.com/AkshatG589",
+    },
+    {
       title: "Virtual Herbal Garden",
       description: "A 3D interactive platform showcasing medicinal plants used in AYUSH practices.",
       image: "/placeholder.svg?height=400&width=600",
@@ -48,38 +80,6 @@ export default function Projects() {
       liveLink: "https://netflix-clone-iota-brown.vercel.app/",
       codeLink: "https://github.com/AkshatG589",
     }, 
-    {
-      title: "Portfolio website",
-      description :"A simple portfolio website",
-      image: "/placeholder.svg? height=400&width=600",
-      technologies:["React.js","Next.js","jsx"],
-      liveLink: "/",
-      codeLink: "https://github.com/AkshatG589",
-    },
-    {
-      title: "Chat AI Platform",
-      description: "A full-stack AI chatbot platform allowing guest and registered users to interact with Gemini-powered assistants. Includes secure OTP-based authentication.",
-      image: "/placeholder.svg?height=400&width=600",
-      technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Gemini API"],
-      liveLink: "https://ak-chatai.vercel.app/",  // Replace with actual live URL if available
-      codeLink: "https://github.com/AkshatG589/ChatAI",  // Replace with GitHub repo link if sharing code
-      },
-      {
-        title: "iNotebook App",
-        description: "A full-stack notes management application that allows users to securely add, update, and delete personal notes. Features include user authentication with login and signup functionality to keep data private and organized.",
-        image: "/placeholder.svg?height=400&width=600",
-        technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT Auth"],
-        liveLink: "https://inotebook-five-bice.vercel.app/",  // Replace with actual live URL if updated
-        codeLink: "https://github.com/AkshatG589/inotebook",  // Replace with GitHub repo link if sharing code
-        },
-        {
-          title: "QuickBills App",
-          description: "A full-stack billing application to create GST-ready invoices, manage products, and track billing history. Includes Clerk authentication, dynamic invoice generation, business info setup, and detailed bill history.",
-          image: "/preview.png",
-          technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Clerk Auth", "Bootstrap"],
-          liveLink: "https://quickbills-ak.vercel.app/",
-          codeLink: "https://github.com/AkshatG589/quickbill"
-}
   ]
 
   return (
