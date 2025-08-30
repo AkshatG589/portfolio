@@ -66,7 +66,7 @@ export default function Header() {
           className="font-bold text-xl"
         >
           <a href="#" className="text-primary">
-            AKG
+            Akshat
           </a>
         </motion.div>
 
