@@ -37,9 +37,11 @@ export function Avatar3D() {
           <div className="absolute -inset-2 bg-gradient-to-bl from-primary/10 to-transparent z-0 blur-sm"></div>
 
           {/* Avatar */}
-          <div className="w-full h-full bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center text-5xl font-bold text-white">
-            AKG
-          </div>
+              <img
+                src="/akshat.jpg"
+                alt="Akshat"
+                className="w-full h-full object-cover"
+              />
 
           {/* Shine effect */}
           <div className="absolute inset-0 bg-gradient-to-tr from-white/0 via-white/30 to-white/0 opacity-30 animate-shine"></div>
