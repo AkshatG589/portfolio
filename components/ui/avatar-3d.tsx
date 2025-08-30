@@ -5,7 +5,7 @@ import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 export function Avatar3D() {
   return (
     <div className="relative">
-      <Avatar className="size-48 md:size-56 ring-2 ring-primary/20 shadow-sm">
+      <Avatar className="size-54 md:size-56 ring-5 ring-primary/20 shadow-sm">
         <AvatarImage src="/akshat.jpg" alt="Akshat profile photo" />
         <AvatarFallback className="text-xl">AK</AvatarFallback>
       </Avatar>
