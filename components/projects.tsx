@@ -11,7 +11,7 @@ export default function Projects() {
     {
       title: "QuickBills App",
       description: "A full-stack billing application to create GST-ready invoices, manage products, and track billing history. Includes Clerk authentication, dynamic invoice generation, business info setup, and detailed bill history.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/quick_bill.png?height=400&width=600",
       technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Clerk Auth", "Bootstrap"],
       liveLink: "https://quickbills-ak.vercel.app/",
       codeLink: "https://github.com/AkshatG589/quickbill"
@@ -19,7 +19,7 @@ export default function Projects() {
     {
       title: "Chat AI Platform",
       description: "A full-stack AI chatbot platform allowing guest and registered users to interact with Gemini-powered assistants. Includes secure OTP-based authentication.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/chat_ai.png?height=400&width=600",
       technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Gemini API"],
       liveLink: "https://ak-chatai.vercel.app/",  // Replace with actual live URL if available
       codeLink: "https://github.com/AkshatG589/ChatAI",  // Replace with GitHub repo link if sharing code
@@ -27,7 +27,7 @@ export default function Projects() {
     {
       title: "iNotebook App",
       description: "A full-stack notes management application that allows users to securely add, update, and delete personal notes. Features include user authentication with login and signup functionality to keep data private and organized.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/inotebook.png?height=400&width=600",
       technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT Auth"],
       liveLink: "https://inotebook-five-bice.vercel.app/",  // Replace with actual live URL if updated
       codeLink: "https://github.com/AkshatG589/inotebook",  // Replace with GitHub repo link if sharing code
@@ -35,7 +35,7 @@ export default function Projects() {
     {
       title: "Portfolio website",
       description :"A simple portfolio website",
-      image: "/placeholder.svg? height=400&width=600",
+      image: "/portfolio.png?height=400&width=600",
       technologies:["React.js","Next.js","jsx"],
       liveLink: "/",
       codeLink: "https://github.com/AkshatG589",
@@ -43,7 +43,7 @@ export default function Projects() {
     {
       title: "Virtual Herbal Garden",
       description: "A 3D interactive platform showcasing medicinal plants used in AYUSH practices.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/vir_herb_garden.png?height=400&width=600",
       technologies: ["HTML", "CSS", "Bootstrap", "JavaScript", "Three.js"],
       liveLink: "https://virtual-herbs.netlify.app/",
       codeLink: "https://github.com/AllenhouseBusinessSchool/Quantum-coders",
@@ -51,7 +51,7 @@ export default function Projects() {
     {
       title: "HackXpert",
       description: "A hackathon learning platform that connects students and mentors.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/hackxpert.png?height=400&width=600",
       technologies: ["React", "Tailwind", "JSX"],
       liveLink: "https://v0-hack-xpert-dashboard-design.vercel.app/",
       codeLink: "https://github.com/AkshatG589",
@@ -59,7 +59,7 @@ export default function Projects() {
     {
       title: "Todos List App",
       description: "A responsive and clean task management app to organize daily work.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/to-do_list.png?height=400&width=600",
       technologies: ["React", "Bootstrap", "JSX"],
       liveLink: "https://my-todo-coral.vercel.app/",
       codeLink: "https://github.com/AkshatG589",
@@ -67,7 +67,7 @@ export default function Projects() {
     {
       title: "Weather App",
       description: "A real-time weather forecast application using JavaScript and the Weather API.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/weather_web_app.png?height=400&width=600",
       technologies: ["JavaScript", "Weather API"],
       liveLink: "https://weather-app-six-chi-64.vercel.app/",
       codeLink: "https://github.com/AkshatG589/Weather-app",
@@ -75,7 +75,7 @@ export default function Projects() {
     {
       title: "Netflix Clone",
       description: "A simple responsive front-end clone of Netflix using HTML and CSS.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/netflix.png?height=400&width=600",
       technologies: ["HTML", "CSS"],
       liveLink: "https://netflix-clone-iota-brown.vercel.app/",
       codeLink: "https://github.com/AkshatG589",
