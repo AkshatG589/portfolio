@@ -62,7 +62,7 @@ export default function Hero() {
                 <a href="#projects">View Projects</a>
               </Button>
               <Button variant="outline" className="rounded-full gap-2" asChild>
-                <a href="#" download>
+                <a href="https://drive.google.com/file/d/1Juc5c7NbZYkTIjn8BLiWzUqtNvTJIuAF" download>
                   <Download className="h-4 w-4" /> Resume
                 </a>
               </Button>
@@ -83,7 +83,7 @@ export default function Hero() {
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="https://www.linkedin.com/in/akshat-gupta-59a7b1349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                href="https://www.linkedin.com/in/akshat-gupta-59a7b1349"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-muted p-2 rounded-full hover:scale-110 transition-transform"
