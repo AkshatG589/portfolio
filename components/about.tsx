@@ -51,7 +51,7 @@ export default function About() {
               <CardContent className="p-8">
                 <p className="text-lg leading-relaxed">
                   I am a dedicated Web Developer with hands-on experience in JavaScript, React, and Bootstrap. As the
-                  co-founder of B.Tech Simplified, I have helped students simplify complex technical concepts. I have
+                  co-founder of Enginow, I have helped students simplify complex technical concepts. I have
                   also participated in multiple hackathons, where I built projects like Spotify Clone, Netflix Clone,
                   and HackXpert, a learning platform for hackathons. My problem-solving skills are backed by a 275-day
                   LeetCode streak, and I have worked extensively with MongoDB, MySQL, and API integration. I am eager to
