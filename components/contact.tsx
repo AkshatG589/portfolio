@@ -47,8 +47,8 @@ export default function Contact() {
               <ContactItem
                 icon={<Phone className="h-5 w-5" />}
                 title="Phone"
-                value="+91 XXXXXXXXXX"
-                link="tel:+91XXXXXXXXXX"
+                value="+91 63885 23305"
+                link="tel:+916388523305"
               />
               <ContactItem
                 icon={<Github className="h-5 w-5" />}
