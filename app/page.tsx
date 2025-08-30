@@ -87,7 +87,7 @@ function AchievementItem({ text }) {
     <div className="flex items-start gap-3 p-4 bg-gray-100 rounded-lg">
       <div className="mt-0.5 bg-green-100 p-1.5 rounded-full text-green-600">
         <svg
-          xmlns="http://www.w3.org/2000/svg"
+          xmlns="https://res.cloudinary.com/dfvxkv1c2/image/upload/v1756539103/certificates/c2arzuaus64bqmpa626x.jpg"
           width="16"
           height="16"
           viewBox="0 0 24 24"
