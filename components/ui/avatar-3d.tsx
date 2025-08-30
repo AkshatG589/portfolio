@@ -1,26 +1,18 @@
 "use client"
 
-import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
+import { useEffect, useRef } from "react"
+import { motion, useAnimation, useInView } from "framer-motion"
 
 export function Avatar3D() {
-  return (
-    <div className="relative">
-      <Avatar className="size-48 md:size-56 ring-2 ring-primary/20 shadow-sm">
-        <AvatarImage src="/akshat.jpg" alt="Akshat profile photo" />
-        <AvatarFallback className="text-xl">AK</AvatarFallback>
-      </Avatar>
-      {/* subtle depth accent; safe no-op if styles differ */}
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute inset-0 rounded-full"
-        style={{ boxShadow: "0 10px 40px rgba(0,0,0,0.15)" }}
-      />
-    </div>
-  )
-}
+  const controls = useAnimation()
+  const ref = useRef(null)
+  const inView = useInView(ref, { once: false })
 
-export default Avatar3D
-
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible")
+    }
+  }, [controls, inView])
 
   const bounceVariants = {
     hidden: { y: 0 },
