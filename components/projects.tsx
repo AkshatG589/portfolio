@@ -9,6 +9,33 @@ import { Code, ExternalLink } from "lucide-react"
 export default function Projects() {
   const projects = [
     {
+      title: "HackXpert",
+      description: "A hackathon learning platform that connects students and mentors.",
+      image: "/hackxpert.png?height=400&width=600",
+      technologies: ["React", "Tailwind", "JSX"],
+      liveLink: "https://v0-hack-xpert-dashboard-design.vercel.app/",
+      codeLink: "https://github.com/AkshatG589",
+    },
+
+    {
+      title: "Virtual Herbal Garden",
+      description: "A 3D interactive platform showcasing medicinal plants used in AYUSH practices.",
+      image: "/vir_herb_garden.png?height=400&width=600",
+      technologies: ["HTML", "CSS", "Bootstrap", "JavaScript", "Three.js"],
+      liveLink: "https://virtual-herbs.netlify.app/",
+      codeLink: "https://github.com/AllenhouseBusinessSchool/Quantum-coders",
+    },
+    
+    {
+      title: "Netflix Clone",
+      description: "A simple responsive front-end clone of Netflix using HTML and CSS.",
+      image: "/netflix.png?height=400&width=600",
+      technologies: ["HTML", "CSS"],
+      liveLink: "https://netflix-clone-iota-brown.vercel.app/",
+      codeLink: "https://github.com/AkshatG589",
+    }, 
+    
+    {
       title: "QuickBills App",
       description: "A full-stack billing application to create GST-ready invoices, manage products, and track billing history. Includes Clerk authentication, dynamic invoice generation, business info setup, and detailed bill history.",
       image: "/quick_bill.png?height=400&width=600",
@@ -40,22 +67,8 @@ export default function Projects() {
       liveLink: "/",
       codeLink: "https://github.com/AkshatG589",
     },
-    {
-      title: "Virtual Herbal Garden",
-      description: "A 3D interactive platform showcasing medicinal plants used in AYUSH practices.",
-      image: "/vir_herb_garden.png?height=400&width=600",
-      technologies: ["HTML", "CSS", "Bootstrap", "JavaScript", "Three.js"],
-      liveLink: "https://virtual-herbs.netlify.app/",
-      codeLink: "https://github.com/AllenhouseBusinessSchool/Quantum-coders",
-    },
-    {
-      title: "HackXpert",
-      description: "A hackathon learning platform that connects students and mentors.",
-      image: "/hackxpert.png?height=400&width=600",
-      technologies: ["React", "Tailwind", "JSX"],
-      liveLink: "https://v0-hack-xpert-dashboard-design.vercel.app/",
-      codeLink: "https://github.com/AkshatG589",
-    },
+
+
     {
       title: "Todos List App",
       description: "A responsive and clean task management app to organize daily work.",
@@ -72,14 +85,7 @@ export default function Projects() {
       liveLink: "https://weather-app-six-chi-64.vercel.app/",
       codeLink: "https://github.com/AkshatG589/Weather-app",
     },
-    {
-      title: "Netflix Clone",
-      description: "A simple responsive front-end clone of Netflix using HTML and CSS.",
-      image: "/netflix.png?height=400&width=600",
-      technologies: ["HTML", "CSS"],
-      liveLink: "https://netflix-clone-iota-brown.vercel.app/",
-      codeLink: "https://github.com/AkshatG589",
-    }, 
+
   ]
 
   return (
